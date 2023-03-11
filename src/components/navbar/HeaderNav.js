@@ -10,6 +10,7 @@ import LanguageDropdown from '../language dropdown/LanguageDropdown'
 const Headernav = () => {
 
     const [scrolled, setscrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
 
     useEffect(() => {
@@ -29,14 +30,19 @@ const Headernav = () => {
         };
     }, []);
 
+    const handleMobileMenuToggle = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
 
     return (
-        <Navbar className={scrolled ? 'scrolled shadow-sm' : ""} expand="lg" fixed='top'>
+        <Navbar className={`${scrolled ? 'scrolled shadow-sm' : ''} ${isMobileMenuOpen ? 'mobile-opened' : ''
+            }`} expand="lg" fixed='top'>
             <Container>
                 <div className='nav-wrapper'>
                     <div className='d-flex justify-content-between'>
                         <Link to='/' className='logo hidden-md' ><img src={logo} /></Link>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Toggle onClick={handleMobileMenuToggle}
+                            aria-controls="basic-navbar-nav" />
                     </div>
 
                     <Navbar.Collapse id="basic-navbar-nav">

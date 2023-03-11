@@ -3,7 +3,7 @@ nav.navbar {
     transition: all .3s ease-in-out;
 }
 
-nav.navbar.scrolled {
+nav.navbar.scrolled,nav.navbar.mobile-opened {
     background-color: #fff;
 }
 
@@ -13,7 +13,7 @@ nav.navbar .nav-wrapper {
     padding: 45px 0;
 }
 
-nav.navbar.scrolled .nav-wrapper {
+nav.navbar.scrolled .nav-wrapper,nav.navbar.mobile-opened .nav-wrapper  {
     border: none;
 }
 
