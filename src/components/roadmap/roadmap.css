@@ -11,7 +11,7 @@ section.roadmap::before {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../../assets/roadmap-bg.svg) no-repeat center;
+    background: url(../../assets/roadmap-bg.webp) no-repeat center;
 }
 
 section.roadmap .text-head {

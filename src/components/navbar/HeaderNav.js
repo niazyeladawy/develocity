@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Container, Dropdown, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/deve logo.svg'
 import './headerNav.css'
 import { Link as ScrollLink } from 'react-scroll'
-import { MdArrowRightAlt } from 'react-icons/md';
 import LanguageDropdown from '../language dropdown/LanguageDropdown'
 
 
@@ -51,7 +50,7 @@ const Headernav = () => {
 
                         </Nav>
                         <div className='nav-left'>
-                            <a href="#" className='buy-btn'>Buy Deve <MdArrowRightAlt /></a>
+                            <a href="#" className='buy-btn'>Buy Deve <i className="fa-solid fa-arrow-right-long ms-2"></i></a>
                             <a href="#" className='claim-btn'>Claim</a>
                             <LanguageDropdown />
                         </div>

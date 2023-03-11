@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import usa from '../../assets/us.svg'
 import sa from '../../assets/sa.svg'
 import './languagedropdown.css'
-import { TbArrowNarrowDown } from 'react-icons/tb';
 
 const languages = [
     {
@@ -28,7 +27,8 @@ const LanguageDropdown = () => {
             <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='d-flex align-items-center'>
                 <img src={selectedLanguage.flag} alt={selectedLanguage.name} className=" lang-img" />
                 {selectedLanguage.name}
-                <TbArrowNarrowDown/>
+                <i className="fa-solid fa-arrow-down-long ms-2 " style={{fontSize:"14px"}}></i>
+                
             </Dropdown.Toggle>
 
             <Dropdown.Menu>

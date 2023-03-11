@@ -1,13 +1,13 @@
 import React from 'react'
-import { Swiper, SwiperSlide  } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Navigation ,Pagination } from "swiper";
-import { HiOutlineArrowNarrowRight, HiOutlineArrowNarrowLeft } from "react-icons/hi";
+import { Navigation, Pagination } from "swiper";
 import './collabrationslider.css'
 import 'swiper/css/pagination';
+import arrowright from '../../assets/arrow-right.svg'
 
 const CollabrationSlider = () => {
     return (
@@ -22,10 +22,10 @@ const CollabrationSlider = () => {
 
                 <div className='swiper-container'>
                     <div className="swiper-button image-swiper-button-next">
-                        <HiOutlineArrowNarrowRight color='#fff' />
+                        <img src={arrowright} alt="" />
                     </div>
                     <div className="swiper-button image-swiper-button-prev">
-                        <HiOutlineArrowNarrowLeft color='#fff' />
+                    <img src={arrowright} alt="" />
                     </div>
                     <Swiper
                         navigation={{
@@ -36,7 +36,7 @@ const CollabrationSlider = () => {
                         loop={true}
                         spaceBetween={50}
                         slidesPerView={3}
-                        modules={[Navigation,Pagination]}
+                        modules={[Navigation, Pagination]}
                         breakpoints={{
                             0: {
                                 slidesPerView: 1,

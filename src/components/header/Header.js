@@ -1,9 +1,11 @@
 import React from 'react'
 import { Col, Container, ProgressBar, Row } from 'react-bootstrap'
 import './header.css'
-import headerHero from '../../assets/coin-transparent.png'
-import { FaTelegramPlane, FaDiscord, FaTwitter } from 'react-icons/fa';
+import headerHero from '../../assets/coin-transparent.webp'
 import coinImg from '../../assets/coin-02.png'
+import telegramIcon from '../../assets/telegram-icon.svg'
+import twitterIcon from '../../assets/twitter-icon.svg'
+import discordIcon from '../../assets/discord-icon.svg'
 
 const Header = () => {
     return (
@@ -11,9 +13,9 @@ const Header = () => {
             <Container>
                 <div className='socials'>
                     <ul className='list-unstyled'>
-                        <li><a href="#"><FaTelegramPlane /></a></li>
-                        <li><a href="#"><FaDiscord /></a></li>
-                        <li><a href="#"><FaTwitter /></a></li>
+                        <li><a href="#"><img src={telegramIcon} alt="" /></a></li>
+                        <li><a href="#"><img src={twitterIcon} alt="" /></a></li>
+                        <li><a href="#"><img src={discordIcon} alt="" /></a></li>
                     </ul>
                 </div>
                 <Row>

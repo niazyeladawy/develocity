@@ -66,15 +66,17 @@
     left: 0;
 }
 
-.collabration-slider .image-swiper-button-next svg {
+.collabration-slider .image-swiper-button-next img {
     right: 7px;
-    top: 10px;
+    top: 15px;
     position: absolute;
+    font-size: 24px;
 }
 
-.collabration-slider .image-swiper-button-prev svg {
+.collabration-slider .image-swiper-button-prev img {
+    transform: scaleX(-1);
     left: 7px;
-    bottom: 10px;
+    bottom: 15px;
     position: absolute;
 }
 .collabration-slider  .swiper-pagination {
