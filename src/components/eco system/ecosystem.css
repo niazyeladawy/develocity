@@ -1,0 +1,51 @@
+section.ecosystem {
+    padding: 70px 0 160px;
+}
+
+section.ecosystem .text-head {
+    color: rgb(58, 58, 58);
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+section.ecosystem .img-cont img {
+    width: 100%;
+    object-fit: contain;
+}
+section.ecosystem .text-cont 
+{
+    text-align: center;
+}
+section.ecosystem .text-cont h3 {
+    color: rgb(58, 58, 58);
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+section.ecosystem .text-cont p {
+    color: rgb(107, 107, 107);
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section.ecosystem .text-cont a {
+    padding: 15px 23px;
+    border: 1px solid rgb(138, 138, 138) ;
+    color: rgb(58, 58, 58);
+    backdrop-filter: blur(38px);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+}

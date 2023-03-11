@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "medium";
+  /*Can be any text*/
+  src: local("AtHaussAeromeduim"),
+    url("./fonts/AtHaussAero-Medium.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "light";
+  /*Can be any text*/
+  src: local("AtHaussAeroLight"),
+    url("./fonts/AtHaussAero-Light.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "regular";
+  /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/AtHaussAero-Regular.ttf") format("truetype");
+}
+
+* {
+  scroll-behavior: unset !important;
+  font-family: 'regular';
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1520px;
+  }
+}
+
+.buy-btn {
+  padding: 15px 15px 15px 20px;
+  background: linear-gradient(95.25deg, rgba(255, 162, 41, 1.00) 0%, rgba(255, 196, 0, 1.00) 9%);
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.claim-btn {
+  padding: 15px 20px 15px;
+  background: transparent;
+  font-size: 17px;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(138, 138, 138);
+}
+
+.buy-btn svg {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.lang-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+

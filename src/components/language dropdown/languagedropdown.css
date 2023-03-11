@@ -1,0 +1,9 @@
+.dropdown button:focus{
+    border: none;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown button{
+    width: 100px;
+}

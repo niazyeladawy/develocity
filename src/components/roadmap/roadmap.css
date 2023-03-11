@@ -1,0 +1,470 @@
+section.roadmap {
+    padding: 80px 0 400px;
+    background: radial-gradient(rgba(145, 68, 196, 1.00) 0%, rgba(20, 18, 70, 1.00) 119%);
+    position: relative;
+}
+
+section.roadmap::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../../assets/roadmap-bg.svg) no-repeat center;
+}
+
+section.roadmap .text-head {
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+section.roadmap .phases .phase-inner {
+    background-color: #fff;
+    width: fit-content;
+    position: relative;
+}
+
+section.roadmap .phases {
+    padding-top: 205px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+section.roadmap .phases .phase-inner .phase-badge {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 10px 20px 15px;
+}
+
+section.roadmap .phases .phase-title {
+    padding: 19px 0 0 300px;
+    z-index: 99;
+    position: relative;
+}
+
+section.roadmap .phases .phaase2 .phase-inner .phase-badge {
+    background: linear-gradient(99.09deg, rgba(51, 173, 255, 1.00) 0%, rgba(92, 199, 246, 1.00) 16%);
+}
+
+section.roadmap .phases .phaase1 {
+    position: relative;
+    right: -50px;
+}
+
+section.roadmap .phases .phaase3 {
+    position: relative;
+    left: -50px;
+}
+
+section.roadmap .phases .phaase1 .phase-inner .phase-badge {
+    background: linear-gradient(90.00deg, rgba(255, 186, 49, 1.00) 0%, rgba(232, 151, 80, 1.00) 0%);
+}
+
+section.roadmap .phases .phaase3 .phase-inner .phase-badge {
+    background: linear-gradient(97.97deg, rgba(82, 210, 95, 1.00) 0%, rgba(88, 178, 98, 1.00) 14%);
+}
+
+section.roadmap .phases .phaase4 .phase-inner .phase-badge {
+    background: linear-gradient(101.41deg, rgba(255, 88, 233, 1.00) 0%, rgba(192, 130, 255, 1.00) 22%);
+}
+
+
+
+section.roadmap .phases .phase-inner .content {
+    display: flex;
+    gap: 50px;
+    padding: 25px 0 37px 40px;
+    align-items: center;
+}
+
+section.roadmap .phases .phase-inner ul {
+    padding-right: 30px;
+    margin: 0;
+}
+
+section.roadmap .phases .phaase2 .top-square {
+    position: absolute;
+    width: 285px;
+    height: 11px;
+    background: linear-gradient(180.00deg, rgba(51, 173, 255, 1.00) 0%, rgba(92, 199, 246, 1.00) 100%);
+    top: -41px;
+    left: 68px;
+}
+
+section.roadmap .phases .phaase2 .bottom-square {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    background: linear-gradient(180.00deg, rgba(51, 173, 255, 1.00) 0%, rgba(92, 199, 246, 1.00) 100%);
+    bottom: -77px;
+    left: -26px;
+}
+
+section.roadmap .phases .phaase2 .bottom-circle {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background: linear-gradient(180.00deg, rgba(51, 173, 255, 1.00) 0%, rgba(92, 199, 246, 1.00) 100%);
+    bottom: -42px;
+    right: 260px;
+    border-radius: 50%;
+}
+
+section.roadmap .phases .phaase1 {
+    position: relative;
+    top: 170px;
+}
+
+section.roadmap .phases .phaase1 .top-circle {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    top: -134px;
+    right: 87px;
+    background: linear-gradient(180.00deg, rgba(255, 186, 49, 1.00) 0%, rgba(232, 151, 80, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+}
+
+section.roadmap .phases .phaase1 .bottom-square {
+    position: absolute;
+    width: 282px;
+    height: 25px;
+    bottom: -57px;
+    right: 129px;
+    background: linear-gradient(180.00deg, rgba(255, 186, 49, 1.00) 0%, rgba(232, 151, 80, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+}
+
+section.roadmap .phases .phaase3 {
+    margin-top: 228px;
+}
+
+section.roadmap .phases .phaase3 .top-square {
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    background: linear-gradient(180.00deg, rgba(82, 210, 95, 1.00) 0%, rgba(88, 178, 98, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+    right: 48px;
+    top: -64px;
+}
+
+section.roadmap .phases .phaase3 .bottom-square {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    background: linear-gradient(180.00deg, rgba(82, 210, 95, 1.00) 0%, rgba(88, 178, 98, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+    right: 132px;
+    bottom: -159px;
+}
+
+section.roadmap .phases .phaase4 {
+    margin-top: 437px;
+}
+
+section.roadmap .phases .phaase4 .top-circle {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background: linear-gradient(180.00deg, rgba(255, 88, 233, 1.00) 0%, rgba(192, 130, 255, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+    top: -74px;
+    left: 277px;
+}
+
+section.roadmap .phases .phaase4 .right-square {
+    position: absolute;
+    width: 10px;
+    height: 331px;
+    right: -58px;
+    top: 45px;
+    background: linear-gradient(180.00deg, rgba(255, 88, 233, 1.00) 0%, rgba(192, 130, 255, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+}
+
+section.roadmap .phases .phaase4 .bottom-square {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 136px;
+    bottom: -61px;
+    background: linear-gradient(180.00deg, rgba(255, 88, 233, 1.00) 0%, rgba(192, 130, 255, 1.00) 100%);
+    border: 1px solid rgb(112, 112, 112);
+}
+
+section.roadmap .phases .half-circle {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -14px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+section.roadmap .phases .phaase2 .half-circle {
+    right: 220px;
+}
+
+section.roadmap .phases .phaase1 .half-circle {
+    right: 291px;
+}
+
+section.roadmap .phases .phaase1 .half-circle::before,
+section.roadmap .phases .phaase3 .half-circle::before,
+section.roadmap .phases .phaase4 .half-circle::after {
+    top: 14px;
+    content: "";
+    position: absolute;
+    left: 6px;
+    width: 21px;
+    height: 25px;
+    background: url(../../assets/arrow-dwon.svg) no-repeat center;
+}
+
+section.roadmap .phases .phaase1 .half-left-circle {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    bottom: 58px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: -14px;
+}
+
+section.roadmap .phases .phaase1 .half-left-circle::after {
+    content: "";
+    position: absolute;
+    bottom: -132px;
+    width: 681px;
+    height: 149px;
+    border: 4px solid rgb(255, 255, 255);
+    border-bottom: none;
+    right: 14px;
+    z-index: 1;
+    border-right: none;
+}
+
+section.roadmap .phases .phaase3 .half-right-circle {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    bottom: 115px;
+    background-color: #fff;
+    border-radius: 50%;
+    right: -14px;
+}
+
+section.roadmap .phases .phaase3 .half-right-circle::before {
+    content: "";
+    position: absolute;
+    background: rgb(25, 25, 25);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+}
+
+section.roadmap .phases .phaase3 .half-circle {
+    right: 330px;
+}
+
+section.roadmap .phases .phaase4 .half-circle {
+    left: 180px;
+}
+
+section.roadmap .phases .phaase3 .half-right-circle::after {
+    content: "";
+    position: absolute;
+    width: 79px;
+    height: 4px;
+    background-color: #fff;
+    top: 12px;
+}
+
+section.roadmap .phases .phaase4 .half-circle::before {
+    content: "";
+    position: absolute;
+    bottom: 27px;
+    width: 418px;
+    height: 161px;
+    border: 4px solid rgb(255, 255, 255);
+    border-bottom: none;
+    right: 12px;
+    z-index: 1;
+}
+
+section.roadmap .phases .phaase2 .half-circle::before {
+    content: "";
+    position: absolute;
+    background: rgb(25, 25, 25);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+}
+
+section.roadmap .phases .phaase2 .half-circle::after {
+    content: "";
+    position: absolute;
+    bottom: -143px;
+    width: 820px;
+    height: 220px;
+    border: 4px solid rgb(255, 255, 255);
+    border-bottom: none;
+    left: 12px;
+    z-index: 1;
+}
+
+section.roadmap .phases .phaase1 .half-left-circle::before{
+    content: "";
+    position: absolute;
+    background: rgb(25, 25, 25);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+}
+
+@media screen and (max-width:1250px) {
+    section.roadmap .phases {
+        grid-template-columns: auto ;
+        justify-content: center;
+        gap: 150px;
+    }
+    section.roadmap .phases .phaase2 .half-circle::after,section.roadmap .phases .phaase1 .half-left-circle::after,section.roadmap .phases .phaase3 .half-right-circle::after,section.roadmap .phases .phaase4 .half-circle::before{
+        display: none;
+    }
+    section.featured .featured-cont {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    section.roadmap .phases .phaase1 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    section.roadmap .phases .phaase3 {
+        margin-top: 0;
+        left: 0;
+    }
+    section.roadmap .phases .phaase4{
+        margin-top: 0;
+    }
+    section.roadmap .phases .phase-inner {
+        width: 100%;
+    }
+    section.roadmap .phases .phase-title {
+        padding: 21px 0 0 50%;
+        z-index: 99;
+        position: relative;
+    }
+    section.roadmap .phases .phaase4 .right-square{
+        display: none;
+    }
+    section.roadmap .phases {
+        padding-top: 85px;
+    }
+    section.roadmap .phases .phaase2 .half-circle {
+        left: 50%;
+        bottom: -14px;
+        top: unset;
+        transform: translateX(-50%);
+    }
+    section.roadmap .phases .phaase3 .half-circle,
+    section.roadmap .phases .phaase1 .half-circle,section.roadmap .phases .phaase4 .half-circle,section.roadmap .phases .phaase3 .half-right-circle {
+        right: unset;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section.roadmap .phases .phaase3 .half-right-circle{
+        bottom: -14px;
+    }
+    section.roadmap .phases .phaase1 .top-circle {
+       right: 50px;
+    }
+    section.roadmap .phases .phaase1 .half-left-circle {
+       
+        left: 50%;
+        bottom: -14px;
+        transform: translateX(-50%);
+    
+    }
+    section.roadmap .phases .phaase1 .bottom-square {
+        width: 150px;
+        right: unset;
+        left: 0;
+    }
+    section.roadmap .phases .phaase3 .top-square{
+        right: 0;
+        width: 150px;
+    }
+    section.roadmap .phases .phaase3 .bottom-square{
+        left: 0;
+        bottom: -134px;
+    }
+    section.roadmap {
+        padding: 80px 0 130px;
+    }
+    section.roadmap .phases .phaase1 .half-circle::after,section.roadmap .phases .phaase3 .half-circle::after,section.roadmap .phases .phaase4 .half-circle::before{
+        height: 140px;
+        width: 4px;
+        bottom: 15px;
+        background-color: #fff;
+        position: absolute;
+        content: "";
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        border: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section.featured .featured-cont {
+        grid-template-columns: repeat(2,auto);
+    }
+   
+    section.roadmap .phases .phase-inner .content{
+        flex-direction: column;
+    }
+    
+    
+    
+}
+@media screen and (max-width:550px) {
+    section.featured .featured-cont {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    section.featured .featured-cont .img-wrapper{
+        text-align: center;
+    }
+
+}

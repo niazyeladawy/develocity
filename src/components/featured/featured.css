@@ -1,0 +1,18 @@
+section.featured {
+    padding: 87px 0 70px;
+    background-color: #fff;
+}
+section.featured h2 {
+    color: rgb(58, 58, 58);
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+section.featured .featured-cont{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
