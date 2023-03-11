@@ -44,7 +44,7 @@ const Headernav = () => {
                             <Link to='/' className='logo hidden-xs'><img src={logo} /></Link>
                             <ScrollLink to="about" spy={true} smooth={true} duration={500} >About</ScrollLink>
                             <ScrollLink to="ecosystem" spy={true} offset={-100} smooth={true} duration={500} >Eco-System</ScrollLink>
-                            <ScrollLink to="roadmap" spy={true} smooth={true} offset={50} duration={500} >Roadmap</ScrollLink>
+                            <ScrollLink to="roadmap" spy={true} smooth={true} offset={-150} duration={500} >Roadmap</ScrollLink>
                             <ScrollLink to="whitepaper" spy={true} smooth={true} offset={50} duration={500} >Whitepaper</ScrollLink>
                             <ScrollLink to="how-o" spy={true} smooth={true} offset={50} duration={500} >How To</ScrollLink>
 
